@@ -1,0 +1,100 @@
+2022-Nov-21-15:39:27:664353,run: 0
+2022-Nov-21-15:39:27:665939,ETL Job Started
+2022-Nov-21-15:39:27:667478,Extract phase Started
+2022-Nov-21-15:39:27:674067,Extract phase Ended
+2022-Nov-21-15:39:27:678498,Transform phase Started
+2022-Nov-21-15:39:27:679886,Transform phase Ended
+2022-Nov-21-15:39:27:685177,Load phase Started
+2022-Nov-21-15:39:27:692840,Load phase Ended
+2022-Nov-21-15:39:27:695602,ETL Job Ended
+2022-Nov-21-15:39:27:697323,------------------------------
+2022-Nov-21-15:39:27:698389,run: 1
+2022-Nov-21-15:39:27:702027,ETL Job Started
+2022-Nov-21-15:39:27:703572,Extract phase Started
+2022-Nov-21-15:39:27:708832,Extract phase Ended
+2022-Nov-21-15:39:27:712551,Transform phase Started
+2022-Nov-21-15:39:27:714632,Transform phase Ended
+2022-Nov-21-15:39:27:714632,Load phase Started
+2022-Nov-21-15:39:27:720958,Load phase Ended
+2022-Nov-21-15:39:27:722983,ETL Job Ended
+2022-Nov-21-15:39:27:724892,------------------------------
+2022-Nov-21-15:39:27:726981,run: 2
+2022-Nov-21-15:39:27:730503,ETL Job Started
+2022-Nov-21-15:39:27:733186,Extract phase Started
+2022-Nov-21-15:39:27:738889,Extract phase Ended
+2022-Nov-21-15:39:27:738889,Transform phase Started
+2022-Nov-21-15:39:27:743494,Transform phase Ended
+2022-Nov-21-15:39:27:744629,Load phase Started
+2022-Nov-21-15:39:27:747150,Load phase Ended
+2022-Nov-21-15:39:27:752789,ETL Job Ended
+2022-Nov-21-15:39:27:755395,------------------------------
+2022-Nov-21-15:39:27:756441,run: 3
+2022-Nov-21-15:39:27:759245,ETL Job Started
+2022-Nov-21-15:39:27:760880,Extract phase Started
+2022-Nov-21-15:39:27:764739,Extract phase Ended
+2022-Nov-21-15:39:27:764739,Transform phase Started
+2022-Nov-21-15:39:27:771284,Transform phase Ended
+2022-Nov-21-15:39:27:772558,Load phase Started
+2022-Nov-21-15:39:27:777291,Load phase Ended
+2022-Nov-21-15:39:27:780945,ETL Job Ended
+2022-Nov-21-15:39:27:782642,------------------------------
+2022-Nov-21-15:39:27:785208,run: 4
+2022-Nov-21-15:39:27:787365,ETL Job Started
+2022-Nov-21-15:39:27:789707,Extract phase Started
+2022-Nov-21-15:39:27:795455,Extract phase Ended
+2022-Nov-21-15:39:27:795455,Transform phase Started
+2022-Nov-21-15:39:27:800079,Transform phase Ended
+2022-Nov-21-15:39:27:803259,Load phase Started
+2022-Nov-21-15:39:27:805733,Load phase Ended
+2022-Nov-21-15:39:27:810599,ETL Job Ended
+2022-Nov-21-15:39:27:811934,------------------------------
+2022-Nov-21-15:39:27:814455,run: 5
+2022-Nov-21-15:39:27:816183,ETL Job Started
+2022-Nov-21-15:39:27:819027,Extract phase Started
+2022-Nov-21-15:39:27:822908,Extract phase Ended
+2022-Nov-21-15:39:27:826514,Transform phase Started
+2022-Nov-21-15:39:27:828624,Transform phase Ended
+2022-Nov-21-15:39:27:830444,Load phase Started
+2022-Nov-21-15:39:27:834318,Load phase Ended
+2022-Nov-21-15:39:27:836971,ETL Job Ended
+2022-Nov-21-15:39:27:839423,------------------------------
+2022-Nov-21-15:39:27:841507,run: 6
+2022-Nov-21-15:39:27:843381,ETL Job Started
+2022-Nov-21-15:39:27:846400,Extract phase Started
+2022-Nov-21-15:39:27:850614,Extract phase Ended
+2022-Nov-21-15:39:27:852933,Transform phase Started
+2022-Nov-21-15:39:27:856247,Transform phase Ended
+2022-Nov-21-15:39:27:857409,Load phase Started
+2022-Nov-21-15:39:27:861842,Load phase Ended
+2022-Nov-21-15:39:27:865012,ETL Job Ended
+2022-Nov-21-15:39:27:867590,------------------------------
+2022-Nov-21-15:39:27:868978,run: 7
+2022-Nov-21-15:39:27:872038,ETL Job Started
+2022-Nov-21-15:39:27:873329,Extract phase Started
+2022-Nov-21-15:39:27:879093,Extract phase Ended
+2022-Nov-21-15:39:27:879093,Transform phase Started
+2022-Nov-21-15:39:27:885610,Transform phase Ended
+2022-Nov-21-15:39:27:888745,Load phase Started
+2022-Nov-21-15:39:27:893692,Load phase Ended
+2022-Nov-21-15:39:27:895638,ETL Job Ended
+2022-Nov-21-15:39:27:898289,------------------------------
+2022-Nov-21-15:39:27:900416,run: 8
+2022-Nov-21-15:39:27:900416,ETL Job Started
+2022-Nov-21-15:39:27:905099,Extract phase Started
+2022-Nov-21-15:39:27:909688,Extract phase Ended
+2022-Nov-21-15:39:27:909688,Transform phase Started
+2022-Nov-21-15:39:27:909688,Transform phase Ended
+2022-Nov-21-15:39:27:916982,Load phase Started
+2022-Nov-21-15:39:27:922407,Load phase Ended
+2022-Nov-21-15:39:27:923959,ETL Job Ended
+2022-Nov-21-15:39:27:925159,------------------------------
+2022-Nov-21-15:39:27:929180,run: 9
+2022-Nov-21-15:39:27:930376,ETL Job Started
+2022-Nov-21-15:39:27:933420,Extract phase Started
+2022-Nov-21-15:39:27:935131,Extract phase Ended
+2022-Nov-21-15:39:27:941051,Transform phase Started
+2022-Nov-21-15:39:27:941630,Transform phase Ended
+2022-Nov-21-15:39:27:945547,Load phase Started
+2022-Nov-21-15:39:27:951091,Load phase Ended
+2022-Nov-21-15:39:27:951091,ETL Job Ended
+2022-Nov-21-15:39:27:955314,------------------------------

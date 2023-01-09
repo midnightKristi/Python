@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% set title = _('Bonobo — Data processing for humans') %}
+
+{% block body %}
+<h1 style="text-align: center">
+    <img class="logo" src="{{ pathto('_static/bonobo.png', 1) }}" title="Bonobo" alt="Bonobo"
+         style=" width: 128px; height: 128px;"/>
+</h1>
+
+<p>
+    {% trans %}
+    <b>Bonobo</b> is an <b>Extract Transform Load</b> (or ETL) framework for the <b>Python (3.5+)</b> language.
+    {% endtrans %}
+</p>
+
+<p>
+    {% trans %}
+    It works by streaming data through a directed acyclic graph of python callables, one row at a time.
+    {% endtrans %}
+</p>
+
+<p>
+    {% trans %}
+    It is targeting <b>small scale data</b> (as in “not big data”), allowing it to be quick and easy to install (no
+    client-server, no daemon, lightweight requirements, no surprises).
+    {% endtrans %}
+</p>
+<p>
+    {% trans %}
+    Most common file formats (XML, CSV, JSON, Excel, ...) and basic services (SQL databases, REST web services, ...) can
+    be worked with using the built-in or extension libraries, other services can benefit the richness of PyPI.
+    {% endtrans %}
+</p>
+<p>
+    {% trans %}
+    In short, <b>Bonobo</b> contains the logic to execute efficiently an ETL process, the glue to use plain old python
+    ojects and common operations, readers and writers. For the rest, it's just python!
+    {% endtrans %}
+</p>
+
+<div style="border: 1px solid orange; margin: 0.5em; padding: 0.5em">
+    Bonobo is currently released as <strong>alpha</strong> version. Expect some APIs to change.
+</div>
+
+
+<h2 style="margin-bottom: 0">{% trans %}Documentation{% endtrans %}</h2>
+
+<table class="contentstable">
+    <tr>
+        <td>
+            <p class="biglink"><a class="biglink" href="{{ pathto("tutorial/index") }}">{% trans %}First steps{%
+                endtrans %}</a><br/>
+                <span class="linkdescr">{% trans %}quick overview of basic features{% endtrans %}</span></p>
+        </td>
+        <td>
+            <p class="biglink"><a class="biglink" href="{{ pathto("search") }}">{% trans %}
+                Search{% endtrans %}</a><br/>
+                <span class="linkdescr">{% trans %}search the documentation{% endtrans %}</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p class="biglink"><a class="biglink" href="{{ pathto("guide/index") }}">{% trans %}
+                Guides{% endtrans %}</a><br/>
+                <span class="linkdescr">{% trans %}for a complete overview{% endtrans %}</span>
+            </p>
+        </td>
+        <td>
+            <p class="biglink"><a class="biglink" href="{{ pathto("reference/index") }}">{% trans %}References{%
+                endtrans %}</a>
+                <br/>
+                <span class="linkdescr">{% trans %}all functions, classes, terms{% endtrans %}</span>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p class="biglink"><a class="biglink" target="_blank"
+                                  href="https://github.com/python-bonobo/bonobo/tree/master/bonobo/examples">{% trans %}
+                Cookbook{% endtrans %}</a><br/>
+                <span class="linkdescr">{% trans %}examples and recipes{% endtrans %}</span></p>
+        </td>
+        <td>
+            <p class="biglink"><a class="biglink" href="{{ pathto("contribute/index") }}">{% trans %}
+                Contribute{% endtrans %}</a><br/>
+                <span class="linkdescr">{% trans %}contributor guide{% endtrans %}</span></p>
+        </td>
+    </tr>
+</table>
+
+
+
+<h2>Table of contents</h2>
+
+<div>
+    {{ toctree(maxdepth=2, collapse=False)}}
+</div>
+
+{% endblock %}
